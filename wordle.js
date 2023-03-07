@@ -1,13 +1,13 @@
 
 var ver = {};
-var word = "angel"
+var word = "ZAPATA"
 var ab = ['a','b','c','d','e','f','g','h','i','j','k','l', 'ñ','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 window.onload = ()=>{
     initialize();
 }
 
 let initialize = () =>{
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 5; i++) {
         let col = document.createElement("div");
         col.style = "display:flex";
         for (let j = 0; j < word.length; j++) {
