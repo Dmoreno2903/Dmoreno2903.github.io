@@ -18,19 +18,20 @@ let initialize = () =>{
             tile.type = "text";
             tile.addEventListener("keydown",(e)=>{
                 if(ab.includes(e.key.toLocaleLowerCase())){
+                    if(id>0 && id===(i*word.length)+(word.length-1)) {
+                        console.log(id)
+                        verify(i)
+                    }
                     if(e.target.value)e.preventDefault();
                     else if(id<((6*word.length)-1)) setTimeout(()=>{
                         ver={...ver,[id]:e.key}
-                        document.getElementById((id+1)+"tile").focus();
+                        
                         console.log(id)
-                        if(id>0 && id===(i*word.length)+(word.length-1)) {
-                            console.log("ver",id)
-                            verify(i)
-                        }
+                        document.getElementById((id+1)+"tile").focus();
                     },1)
                 }
                 else if(id>=1 && e.key==="Backspace"){
-                    if(id!==i*word.length)document.getElementById((id-1)+"tile").focus();
+                    if(id!==i*word.length && id!=word.length*6-1)document.getElementById((id-1)+"tile").focus();
                 }
                 else{
                     e.preventDefault();
@@ -47,18 +48,20 @@ let initialize = () =>{
 }
 
 let verify = (i)=>{
-    let correct = 0
+    let aux = word
     let indP = 0
     for (let ind = i*word.length; ind <= (i*word.length)+(word.length-1); ind++) {
         let el = document.getElementById(ind+"tile")
         if(ver[ind]===word[indP]){
+            aux = aux.slice(0,indP)+" "+aux.slice(indP+1)
             el.classList.add("correct")
-        }else if(word.includes(ver[ind])){
+            
+        }else if(aux.includes(ver[ind])){
+            aux = aux.slice(0,indP)+aux.slice(indP+1)
             el.classList.add("present")
         }else{
             el.classList.add("absent")
         }
-        
         indP++
     }
 }
