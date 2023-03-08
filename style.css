@@ -13,6 +13,12 @@ hr {
     letter-spacing: 2px;
 }
 
+#content_board {
+    text-align: center;
+    width:100%;
+    padding-top: 20px;
+}
+
 #board {
     padding-top: 20px;
     padding-left: 20px;
@@ -20,26 +26,17 @@ hr {
     width: fit-content;
     height: 80%;
     margin: 0px auto;
-    border: 2px solid black;
+    border: 2px solid gray;
     border-radius: 5px;
-}
-
-#content_board {
-    padding-top: 20px;
-    text-align: center;
-    width: 75%;
-    float: left;
 }
 
 #aside_teams {
-    margin-right: 20px;
-    margin-top: 20px;
-    padding-top: 20px;
-    border: 2px solid black;
-    height: 100px;
-    width: 20%;
-    float: right;
+    border: 2px solid gray;
+    height: 500px;
+    width: 30%;
     border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .tile {

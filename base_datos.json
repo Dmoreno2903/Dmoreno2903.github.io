@@ -1,0 +1,80 @@
+{
+    "AGILE": [
+      "Iterative, flexible approach to software development",
+      "Collaborative, customer-focused, and rapid delivery of working software"
+    ],
+    "SCRUM": [
+      "Agile framework for software development",
+      "Emphasizes collaboration, transparency, and inspection"
+    ],
+    "KANBAN": [
+      "Visual management method for workflow",
+      "Focuses on limiting work in progress and improving flow"
+    ],
+    "EXTREME PROGRAMMING": [
+      "Agile software development methodology",
+      "Delivers high-quality software through continuous delivery and feedback"
+    ],
+    "SCRUMBAN": [
+      "Hybrid of Scrum and Kanban methodologies",
+      "Combines Scrum's structure with Kanban's flexibility"
+    ],
+    "DATABASE": [
+      "Organized collection of data",
+      "Stores, organizes, and manages large amounts of structured or unstructured data"
+    ],
+    "DEBUGGING": [
+      "Process of finding and fixing software errors",
+      "Identifies and resolves issues in code to ensure optimal functionality"
+    ],
+    "DEPLOYMENT": [
+      "Process of releasing software to users",
+      "Makes software available for use by end-users, either locally or remotely"
+    ],
+    "FUNCTION": [
+      "Self-contained unit of code",
+      "Performs a specific task, often as part of a larger program or system"
+    ],
+    "POO": [
+      "Object-oriented programming",
+      "Uses objects to represent and manipulate data and functionality"
+    ],
+    "PRE CONCEPTUAL SCHEMA": [
+        "Abstract model of a domain.",
+        "Representation of a domain without implementation details."
+    ],
+    "FUNCTIONAL REQUIREMENTS": [
+        "Specifies system actions.",
+        "Actions that system must perform to meet user needs."
+    ],
+    "NON FUNCTIONAL REQUIREMENTS": [
+        "Describes system qualities.",
+        "System quality attributes like performance, usability, etc."
+    ],
+    "DYNAMIC TRIAD": [
+        "System behavior over time.",
+        "Representation of system's behavior over time."
+    ],
+    "STRUCTURAL TRIAD": [
+        "System components and relationships.",
+        "Representation of system's components and relationships."
+    ],
+    "ZAPATA": [
+        "System components and relationships.",
+        "Representation of system's components and relationships."
+    ],
+    "UN LENCEP": [
+        "System components and relationships.",
+        "Representation of system's components and relationships."
+    ],
+    "LEAF CONCEPT": [
+        "System components and relationships.",
+        "Representation of system's components and relationships."
+    ],
+    "CLASS CONCEPT": [
+        "System components and relationships.",
+        "Representation of system's components and relationships."
+    ]
+}
+
+  
