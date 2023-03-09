@@ -1,80 +1,70 @@
 {
-    "AGILE": [
-      "Iterative, flexible approach to software development",
-      "Collaborative, customer-focused, and rapid delivery of working software"
-    ],
-    "SCRUM": [
-      "Agile framework for software development",
-      "Emphasizes collaboration, transparency, and inspection"
-    ],
-    "KANBAN": [
-      "Visual management method for workflow",
-      "Focuses on limiting work in progress and improving flow"
-    ],
-    "EXTREME_PROGRAMMING": [
-      "Agile software development methodology",
-      "Delivers high-quality software through continuous delivery and feedback"
-    ],
-    "SCRUMBAN": [
-      "Hybrid of Scrum and Kanban methodologies",
-      "Combines Scrum's structure with Kanban's flexibility"
-    ],
-    "DATABASE": [
-      "Organized collection of data",
-      "Stores, organizes, and manages large amounts of structured or unstructured data"
-    ],
-    "DEBUGGING": [
-      "Process of finding and fixing software errors",
-      "Identifies and resolves issues in code to ensure optimal functionality"
-    ],
-    "DEPLOYMENT": [
-      "Process of releasing software to users",
-      "Makes software available for use by end-users, either locally or remotely"
-    ],
-    "FUNCTION": [
-      "Self-contained unit of code",
-      "Performs a specific task, often as part of a larger program or system"
-    ],
-    "POO": [
-      "Object-oriented programming",
-      "Uses objects to represent and manipulate data and functionality"
-    ],
-    "PRE_CONCEPTUAL_SCHEMA": [
-        "Abstract model of a domain.",
-        "Representation of a domain without implementation details."
-    ],
-    "FUNCTIONAL_REQUIREMENTS": [
-        "Specifies system actions.",
-        "Actions that system must perform to meet user needs."
-    ],
-    "NON FUNCTIONAL_REQUIREMENTS": [
-        "Describes system qualities.",
-        "System quality attributes like performance, usability, etc."
-    ],
-    "DYNAMIC_TRIAD": [
-        "System behavior over time.",
-        "Representation of system's behavior over time."
-    ],
-    "STRUCTURAL_TRIAD": [
-        "System components and relationships.",
-        "Representation of system's components and relationships."
-    ],
-    "ZAPATA": [
-        "System components and relationships.",
-        "Representation of system's components and relationships."
-    ],
-    "UN_LENCEP": [
-        "System components and relationships.",
-        "Representation of system's components and relationships."
-    ],
-    "LEAF_CONCEPT": [
-        "System components and relationships.",
-        "Representation of system's components and relationships."
-    ],
-    "CLASS_CONCEPT": [
-        "System components and relationships.",
-        "Representation of system's components and relationships."
-    ]
-}
+    "DATABASE": 
+      "Stores, organizes, and manages large amounts of structured or unstructured data",
 
-  
+    "DEBUGGING":
+      "Process of finding and fixing software errors",
+
+    "DEPLOYMENT":
+      "Makes software available for use by end-users, either locally or remotely",
+
+    "FUNCTION":
+      "Performs a specific task, often as part of a larger program or system",
+
+    "PRECONCEPTUALSCHEMA":
+      "Diagrams that allow the representation of the terminology of a domain to facilitate its subsequent translation to different conceptual schemas",
+
+    "FUNCTIONALREQUIREMENTS":
+      "",
+
+    "NONFUNCTIONALREQUIREMENTS":
+      "",
+
+    "DYNAMICRELATIONSHIP": 
+      "Refers to a dynamic relationship between a company and its customers that changes and evolves over time.",
+
+    "STRUCTURALRELATIONSHIP":
+      "It describes how the parts of a whole are arranged and how they interact with each other to form a coherent and functioning entity",
+    
+    "LEAFCONCEPT":
+      "They are the terms or concepts that are located at the lowest level of a hierarchy of concepts.",
+
+    "CLASSCONCEPT":
+      "They are terms or concepts that represent a general category or group of elements that share common characteristics",
+
+    "CONTROLLEDDIALOG":
+      "The controlled dialogue is the first source of validation with the stakeholders, because is written in a language easily understood by them.",
+
+    "DOMAINMODEL":
+      "The main objective of the domain model is to provide a clear and shared understanding of the relevant terms and relationships.",
+
+    "GOALDIAGRAM":
+      "Consists of a diagram that shows how the main and secondary objectives are related.",
+    
+    "STAKEHOLDER":
+      "Individuals or organizations interested in a certain development project.",
+    
+    "DATADICTIONARY":
+      "",
+    
+    "UNCMETHOD":
+      "Development methodology developed by Carlos Mario Zapata Jaramillo and used in the Requirements Engineering course",
+    
+    "EVENT":
+      "Action or change that occurs in a system or situation",
+
+    "USERHISTORY":
+      "Technique used in agile software development to describe a functionality or feature of the software from the perspective of the end user.",
+    
+    "REQUIREMENTS":
+      "The requirements in software development are the functional and non-functional specifications that a software system must meet to satisfy the needs of the user and/or client.",
+    
+    "USECASES":
+      "They are a technique used in software engineering to describe how users interact with a software system.",
+
+    "WORKFLOWS":
+      "A workflow is used to model and describe how tasks and activities related to the development, testing, and delivery of software are carried out.",
+    
+    "INTERVIEWS":
+      "They are a technique used to collect information from project stakeholders, including end-users, clients, sponsors, and other stakeholders interested in the software system."
+}
