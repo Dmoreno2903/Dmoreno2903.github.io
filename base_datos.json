@@ -11,7 +11,7 @@
       "Visual management method for workflow",
       "Focuses on limiting work in progress and improving flow"
     ],
-    "EXTREME PROGRAMMING": [
+    "EXTREME_PROGRAMMING": [
       "Agile software development methodology",
       "Delivers high-quality software through continuous delivery and feedback"
     ],
@@ -39,23 +39,23 @@
       "Object-oriented programming",
       "Uses objects to represent and manipulate data and functionality"
     ],
-    "PRE CONCEPTUAL SCHEMA": [
+    "PRE_CONCEPTUAL_SCHEMA": [
         "Abstract model of a domain.",
         "Representation of a domain without implementation details."
     ],
-    "FUNCTIONAL REQUIREMENTS": [
+    "FUNCTIONAL_REQUIREMENTS": [
         "Specifies system actions.",
         "Actions that system must perform to meet user needs."
     ],
-    "NON FUNCTIONAL REQUIREMENTS": [
+    "NON FUNCTIONAL_REQUIREMENTS": [
         "Describes system qualities.",
         "System quality attributes like performance, usability, etc."
     ],
-    "DYNAMIC TRIAD": [
+    "DYNAMIC_TRIAD": [
         "System behavior over time.",
         "Representation of system's behavior over time."
     ],
-    "STRUCTURAL TRIAD": [
+    "STRUCTURAL_TRIAD": [
         "System components and relationships.",
         "Representation of system's components and relationships."
     ],
@@ -63,15 +63,15 @@
         "System components and relationships.",
         "Representation of system's components and relationships."
     ],
-    "UN LENCEP": [
+    "UN_LENCEP": [
         "System components and relationships.",
         "Representation of system's components and relationships."
     ],
-    "LEAF CONCEPT": [
+    "LEAF_CONCEPT": [
         "System components and relationships.",
         "Representation of system's components and relationships."
     ],
-    "CLASS CONCEPT": [
+    "CLASS_CONCEPT": [
         "System components and relationships.",
         "Representation of system's components and relationships."
     ]
