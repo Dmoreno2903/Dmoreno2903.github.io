@@ -1,10 +1,14 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", sans-serif;
     text-align: center;
 }
 
-hr {
+.hr1 {
     width: 500px;
+}
+
+.hr2{
+    width: 70%;
 }
 
 .title {
@@ -33,7 +37,7 @@ hr {
 #aside_teams {
     border: 2px solid gray;
     height: 500px;
-    width: 30%;
+    width: 25%;
     border-radius: 5px;
     margin: 20px auto;
     text-align: center;
