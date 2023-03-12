@@ -1,70 +1,64 @@
 {
     "DATABASE": 
-      "Stores, organizes, and manages large amounts of structured or unstructured data",
+      ["QUERY", "Collection of organized data."],
 
     "DEBUGGING":
-      "Process of finding and fixing software errors",
+      ["TESTING", "Process of fixing errors."],
 
     "DEPLOYMENT":
-      "Makes software available for use by end-users, either locally or remotely",
+      ["CONFIGURATION","Deployment of software in production."],
 
     "FUNCTION":
-      "Performs a specific task, often as part of a larger program or system",
+      ["PARAMETER", "Reusable block of code."],
 
     "PRECONCEPTUALSCHEMA":
-      "Diagrams that allow the representation of the terminology of a domain to facilitate its subsequent translation to different conceptual schemas",
+      ["GRAPHIC LOGIC", "Requeriments modeling"],
 
     "FUNCTIONALREQUIREMENTS":
-      "",
-
-    "NONFUNCTIONALREQUIREMENTS":
-      "",
+      ["SPECIFICATIONS", "Specifications of functionalities."],
 
     "DYNAMICRELATIONSHIP": 
-      "Refers to a dynamic relationship between a company and its customers that changes and evolves over time.",
+      ["ACTION VERB", "Changing relationship between entities."],
 
     "STRUCTURALRELATIONSHIP":
-      "It describes how the parts of a whole are arranged and how they interact with each other to form a coherent and functioning entity",
-    
+      ["HAS/IS", "Static relationship between entities."],
+
     "LEAFCONCEPT":
-      "They are the terms or concepts that are located at the lowest level of a hierarchy of concepts.",
+      ["ATTRIBUTE", "Attributes of class concept"],
 
     "CLASSCONCEPT":
-      "They are terms or concepts that represent a general category or group of elements that share common characteristics",
+      ["INHERITANCE", "Concept with subclasses"],
 
     "CONTROLLEDDIALOG":
-      "The controlled dialogue is the first source of validation with the stakeholders, because is written in a language easily understood by them.",
+      ["INTERVIEWS", "Information about the software we will work on"],
 
     "DOMAINMODEL":
-      "The main objective of the domain model is to provide a clear and shared understanding of the relevant terms and relationships.",
+      ["ENTITIES", "Representation of entities, attributes, and relationships"],
 
     "GOALDIAGRAM":
-      "Consists of a diagram that shows how the main and secondary objectives are related.",
+      ["OBJECTIVES", "Graphic representation of goals."],
     
     "STAKEHOLDER":
-      "Individuals or organizations interested in a certain development project.",
-    
-    "DATADICTIONARY":
-      "",
+      ["INTERESED", "Interesed parties"],
     
     "UNCMETHOD":
-      "Development methodology developed by Carlos Mario Zapata Jaramillo and used in the Requirements Engineering course",
+      ["REVISITED", "Thesis of Carlos Mario Zapata"],
     
     "EVENT":
-      "Action or change that occurs in a system or situation",
+      ["ACTIONS", "Actions performed by the entities that change the state of the system"],
 
-    "USERHISTORY":
-      "Technique used in agile software development to describe a functionality or feature of the software from the perspective of the end user.",
-    
-    "REQUIREMENTS":
-      "The requirements in software development are the functional and non-functional specifications that a software system must meet to satisfy the needs of the user and/or client.",
+    "USERSTORY":
+      ["FUNCTIONALITY", "Description of a desired functionality"],
     
     "USECASES":
-      "They are a technique used in software engineering to describe how users interact with a software system.",
+      ["INTERACTIONS", "Interactions that an actor has with the system"],
 
     "WORKFLOWS":
-      "A workflow is used to model and describe how tasks and activities related to the development, testing, and delivery of software are carried out.",
-    
+      ["PROCESS", "Steps or tasks that need to be completed in a specific order"],
+
     "INTERVIEWS":
-      "They are a technique used to collect information from project stakeholders, including end-users, clients, sponsors, and other stakeholders interested in the software system."
+      ["OBSERVATIONS AND", "Knowledge elicitation method"],
+
+    "PROCESSTRACING":
+      ["TASK OR DECISION", "Technique used to investigate the cognitive processes"]
 }
