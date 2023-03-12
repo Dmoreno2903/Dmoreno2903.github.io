@@ -13,6 +13,8 @@ let init = (db) => {
     
 }
 let initialize = () => {
+
+    imp_table();
     removeAll(document.getElementById("board"));
 
     (current===6)?current=0:current++;
@@ -96,6 +98,8 @@ let button_guardar = () => {
     var close_popUp = document.getElementById("main_emergente").style.display = "none";
     var close_popUp = document.getElementById("main_game").style.display = "block";
     console.log(list_teams);
+
+    imp_table();
 }
 
 
@@ -105,4 +109,13 @@ let removeAll = (el) => {
         console.log(777,el.children);
     });
 
+}
+
+let imp_table = () => {
+    list_teams.forEach((data, in_fila) => {
+        data.forEach((valor, in_columna) => {
+            let id = String('f'+in_fila+'c'+in_columna).valueOf()
+            let change_text = document.getElementById(id).innerHTML = valor;
+        });
+    });
 }
