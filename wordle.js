@@ -112,7 +112,7 @@ let removeAll = (el) => {
 }
 
 let imp_table = () => {
-    list_teams.forEach((data, in_fila) => {
+    list_teams?.forEach((data, in_fila) => {
         data.forEach((valor, in_columna) => {
             let id = String('f'+in_fila+'c'+in_columna).valueOf()
             let change_text = document.getElementById(id).innerHTML = valor;
