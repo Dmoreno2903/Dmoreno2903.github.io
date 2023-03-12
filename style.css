@@ -39,7 +39,7 @@ body {
 
 #aside_teams {
     border: 2px solid gray;
-    height: 350px;
+    height: all;
     width: 300px;
     border-radius: 5px;
     margin: 20px auto;
@@ -335,6 +335,8 @@ button {
     width: 270px;
     background-color: lightgray;
     border: 2px solid lightgray;
+    font-size: 15px;
+    border-radius: 5px;
 }
 button:hover {
     background-color: gray;
