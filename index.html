@@ -9,23 +9,57 @@
     <script src="wordle.js"></script>
 </head>
 <body>
-    <!-- Titulo -->
-    <h1 class="tittle">WORDLE | Requirements Engineering </h1>
 
-    <!-- Linea separadora -->
-    <hr class="hr1">
+    <div class="main_emergente">
+        <div class="vent_emergente" id="v_emergente">
 
-    <!-- Contenedor de los cuadros de respuesta -->
-    <section id="content_board">
-        <!-- Cuadros de respuesta -->
-        <div id="board"></div>
-
-        <!-- Barra lateral, equipos y puntuación -->
-        <div id="aside_teams">
-            <h2>Participating Teams</h2>
-            <hr class="hr2">
+            <div class="cont_tittle">
+                <h1 class="tittle">NUMBER OF THE TEAMS</h1>
+            </div>
+    
+            <div class="cont_parrafo">
+                <p class="text">Ingrese el número de los equipos</p>
+            </div>
+    
+            <div class="cont_inputs">
+                <div id="cont1">TEAM</div>
+                <div id="cont2">TEAM</div>
+                <div id="cont3">TEAM</div>
+                <div id="cont4">TEAM</div>
+                <div id="cont5">TEAM</div>
+                <div id="cont6">TEAM</div>
+    
+                <input class="inputs" id="inpt1"></input>
+                <input class="inputs" id="inpt2"></input>
+                <input class="inputs" id="inpt3"></input>
+                <input class="inputs" id="inpt4"></input>
+                <input class="inputs" id="inpt5"></input>
+                <input class="inputs" id="inpt6"></input>
+            </div>
+    
+            <button class="button_save" onclick="obt_val_inputs()">GUARDAR</button>
         </div>
-    </section>
+    </div>
+
+    <div class="main_game">
+        <!-- Titulo -->
+        <h1 class="tittle">WORDLE | Requirements Engineering </h1>
+
+        <!-- Linea separadora -->
+        <hr class="hr1">
+
+        <!-- Contenedor de los cuadros de respuesta -->
+        <section id="content_board">
+            <!-- Cuadros de respuesta -->
+            <div id="board"></div>
+
+            <!-- Barra lateral, equipos y puntuación -->
+            <div id="aside_teams">
+                <h2>Participating Teams</h2>
+                <hr class="hr2">
+            </div>
+        </section>
+    </div>
 
     <!-- Resultado -->
     <div class="answer"></div>
