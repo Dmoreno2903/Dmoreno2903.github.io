@@ -290,17 +290,17 @@ body {
     color: white;
 }
 
-.main_emergente {
-    display: none;
+#main_emergente {
+    margin-top: 200px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
     width: 100%;
     height: 100%;   
 }
 
-.main_game {
-
+#main_game {
+    display: none;
     width: 100%;
     height: 100%;
 }

@@ -74,3 +74,17 @@ let verify = (i)=>{
         indP++
     }
 }
+
+let button_guardar = () => {
+    let list_teams = new Array();
+    let result_inputs = document.getElementsByClassName("inputs");
+
+    let item = [].map.call(result_inputs, (data) => {
+        list_teams.push(Array("Team" + data.value, 0));
+    })
+    
+    var close_popUp = document.getElementById("main_emergente").style.display="none";
+    var close_popUp = document.getElementById("main_game").style.display="block";
+
+    return list_teams
+}
