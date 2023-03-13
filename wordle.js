@@ -76,7 +76,6 @@ let verify = (i) => {
     let indP = 0
     for (let ind = i * word.length; ind <= (i * word.length) + (word.length - 1); ind++) {
         let el = document.getElementById(ind + "tile")
-        console.log(word,"\n",ver,"\n",aux)
         if (ver[ind] === aux[indP]) {
             aux = aux.slice(0, indP) + " " + aux.slice(indP + 1);
             el.classList.add("correct");
@@ -88,7 +87,6 @@ let verify = (i) => {
             }
 
         } else if (aux.includes(ver[ind]) && aux.indexOf(ver[ind])<ind || (aux.match(/o/g) || []).length>1) {
-            console.log(aux.indexOf(ver[ind]),ind,ver[ind])
             aux = aux.replace(ver[ind]," ")
             el.classList.add("present");
         } else {
