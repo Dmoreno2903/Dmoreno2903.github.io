@@ -9,7 +9,6 @@ var minutesLabel = null;
 var secondsLabel = null;
 var interval = null;
 var obj;
-// document.getElementById("minutes").innerText("hello");
 var totalSeconds;
 
 window.onload = () => {
@@ -77,18 +76,20 @@ let verify = (i) => {
     let indP = 0
     for (let ind = i * word.length; ind <= (i * word.length) + (word.length - 1); ind++) {
         let el = document.getElementById(ind + "tile")
-        if (ver[ind] === word[indP]) {
+        console.log(word,"\n",ver,"\n",aux)
+        if (ver[ind] === aux[indP]) {
             aux = aux.slice(0, indP) + " " + aux.slice(indP + 1);
             el.classList.add("correct");
             correct++
             if (correct === word.length) {
                 window.confirm("¡correcta!");
-                console.log(list_teams, current);
                 list_teams[current][1]++;
+                clearInterval(interval);
             }
 
-        } else if (aux.includes(ver[ind])) {
-            aux = aux.slice(0, indP) + aux.slice(indP + 1);
+        } else if (aux.includes(ver[ind]) && aux.indexOf(ver[ind])<ind || (aux.match(/o/g) || []).length>1) {
+            console.log(aux.indexOf(ver[ind]),ind,ver[ind])
+            aux = aux.replace(ver[ind]," ")
             el.classList.add("present");
         } else {
             el.classList.add("absent");
@@ -96,9 +97,8 @@ let verify = (i) => {
 
         indP++;
     }
-    if (attemps > 1) {
-        console.log(attemps, obj[1][0], obj[1][1]);
-        (attemps === 2) ? window.alert(obj[1][0]) : window.alert(obj[1][1]);
+    if (attemps < 3) {
+        (attemps === 1) ? window.alert(obj[1][0]) : window.alert(obj[1][1]);
     }
     attemps++;
 }
@@ -113,7 +113,6 @@ let button_guardar = () => {
 
     var close_popUp = document.getElementById("main_emergente").style.display = "none";
     var close_popUp = document.getElementById("main_game").style.display = "block";
-    console.log(list_teams);
     initialize();
     imp_table();
 }
@@ -122,7 +121,6 @@ let button_guardar = () => {
 let removeAll = (el) => {
     if (el && el.children) [...el.children].forEach(child => {
         el.removeChild(child);
-        console.log(777, el.children);
     });
 
 }
