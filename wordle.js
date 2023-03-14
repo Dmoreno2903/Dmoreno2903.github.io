@@ -28,7 +28,7 @@ let initialize = () => {
     attemps = 1;
     imp_table();
     removeAll(document.getElementById("board"));
-    (current === 6) ? current = 0 : current++;
+    (current === 5) ? current = 0 : current++;
     i = Math.floor(Math.random() * Object.keys(data_base).length);
     let db = Object.entries(data_base);
     obj = db[i]
@@ -81,12 +81,13 @@ let verify = (i) => {
             el.classList.add("correct");
             correct++
             if (correct === word.length) {
+                console.log("current: ",current,"\nlist teams: ",list_teams);
                 window.confirm("¡correcta!");
                 list_teams[current][1]++;
                 clearInterval(interval);
             }
 
-        } else if (aux.includes(ver[ind]) && aux.indexOf(ver[ind])<ind || (aux.match(/o/g) || []).length>1) {
+        } else if (aux.includes(ver[ind]) && aux.indexOf(ver[ind])<ind || (aux.match(/o/g) || []).length>2) {
             aux = aux.replace(ver[ind]," ")
             el.classList.add("present");
         } else {
